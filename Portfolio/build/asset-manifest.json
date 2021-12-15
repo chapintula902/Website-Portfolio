@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69b57096.chunk.css",
+    "main.js": "/static/js/main.c33be405.chunk.js",
+    "main.js.map": "/static/js/main.c33be405.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/js/2.97157a2f.chunk.js": "/static/js/2.97157a2f.chunk.js",
+    "static/js/2.97157a2f.chunk.js.map": "/static/js/2.97157a2f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.69b57096.chunk.css.map": "/static/css/main.69b57096.chunk.css.map",
+    "static/js/2.97157a2f.chunk.js.LICENSE.txt": "/static/js/2.97157a2f.chunk.js.LICENSE.txt",
+    "static/media/AI1.2334b96b.png": "/static/media/AI1.2334b96b.png",
+    "static/media/WarProductions-logos_transparent.68ea0630.png": "/static/media/WarProductions-logos_transparent.68ea0630.png",
+    "static/media/blog01.cefc0932.png": "/static/media/blog01.cefc0932.png",
+    "static/media/blog02.ab0eb367.png": "/static/media/blog02.ab0eb367.png",
+    "static/media/blog03.d9223238.png": "/static/media/blog03.d9223238.png",
+    "static/media/blog04.742c1357.png": "/static/media/blog04.742c1357.png",
+    "static/media/blog05.bfaa1c1e.png": "/static/media/blog05.bfaa1c1e.png",
+    "static/media/brain.38053150.png": "/static/media/brain.38053150.png",
+    "static/media/paylocitylogo.6af8841b.png": "/static/media/paylocitylogo.6af8841b.png",
+    "static/media/people.5cd2d6fb.png": "/static/media/people.5cd2d6fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0605945.js",
+    "static/js/2.97157a2f.chunk.js",
+    "static/css/main.69b57096.chunk.css",
+    "static/js/main.c33be405.chunk.js"
+  ]
+}

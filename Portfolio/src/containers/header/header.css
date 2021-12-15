@@ -1,0 +1,167 @@
+.warProd__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.warProd__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.warProd__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.warProd__header-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.warProd__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.warProd__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.warProd__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #E4671F;
+    border: 2px solid #E4671F;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.warProd__header-content__people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.warProd__header-content__people img {
+    width: 181.79px;
+    height: 38px;
+}
+
+.warProd__header-content__people p {
+    margin: 0 0 0 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+.warProd__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warProd__header-image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .warProd__header {
+        flex-direction: column;
+    }
+
+    .warProd__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .warProd__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .warProd__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .warProd__header-content__people {
+        flex-direction: column;
+    }
+
+    .warProd__header-content__people p {
+        margin: 0;
+    }
+
+    .warProd__header-content__input input,
+    .warProd__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .warProd__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .warProd__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .warProd__header-content__input input,
+    .warProd__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

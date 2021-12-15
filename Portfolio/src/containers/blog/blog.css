@@ -1,0 +1,78 @@
+.warProd__blog {
+    display: flex;
+    flex-direction: column;    
+}
+
+.warProd__blog-heading {
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 5rem;
+}
+
+.warProd__blog-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.warProd__blog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.warProd__blog-container_groupA {
+    flex: 0.75;
+    margin-right: 2rem;
+}
+
+.warProd__blog-container_groupB {
+    flex: 1;
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    .warProd__blog-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .warProd__blog-container_groupA {
+        margin: 2rem 0;
+    }
+
+    .warProd__blog-container_groupA .warProd__blog-container_article  {
+       width: 48%;
+    }
+
+    .warProd__blog-container_groupA .warProd__blog-container_article-image {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .warProd__blog-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .warProd__blog-container_groupA .warProd__blog-container_article  {
+       width: 100%;
+    }
+
+    .warProd__blog-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .warProd__blog-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+}
